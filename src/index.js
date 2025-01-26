@@ -3,14 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Primeiro from './components/Primeiro';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // Renderização - Código JSX
 root.render(
-  <React.StrictMode>
+  <>
     <App />
-  </React.StrictMode>
+    <Primeiro />
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
