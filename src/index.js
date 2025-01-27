@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Primeiro from './components/Primeiro';
+import Segundo from './components/Segundo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -12,6 +13,7 @@ root.render(
   <>
     <App />
     <Primeiro />
+    <Segundo nome="rodrigoCodDev"/>
   </>
 );
 
