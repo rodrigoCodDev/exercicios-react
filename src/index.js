@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Primeiro from './components/Primeiro';
 import Segundo from './components/Segundo';
+import { Componente1, Componente2 } from './components/Terceiro';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -14,6 +15,9 @@ root.render(
     <App />
     <Primeiro />
     <Segundo nome="rodrigoCodDev"/>
+
+    <Componente1/>
+    <Componente2 nome="Rodrigo"/>
   </>
 );
 
