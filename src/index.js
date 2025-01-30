@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Primeiro from './components/Primeiro';
 import Segundo from './components/Segundo';
 import { Componente1, Componente2 } from './components/Terceiro';
+import Saudacao from './components/Saudacao';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -18,6 +19,8 @@ root.render(
 
     <Componente1/>
     <Componente2 nome="Rodrigo"/>
+
+    <Saudacao tipo="Bom dia" nome="CodDev" />
   </>
 );
 
